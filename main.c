@@ -96,7 +96,7 @@ int main(void)
     /* Temperature controller settings */ 
     double start_temp = 100000000;
     double end_temp = 1;
-    double alpha = 0.9999999999;
+    double alpha = 0.9999999;
     long long max_iters = 999999999999999999;
     /* Initialize temperature */
     init_temperature(temp_controlPtr, start_temp, end_temp, alpha, max_iters);
